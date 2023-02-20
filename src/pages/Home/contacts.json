@@ -1,0 +1,20 @@
+[
+  {
+    "srcImage": "/assets/gmail-icon.svg",
+    "alt": "Email",
+    "link": "lucascontatodev@gmail.com",
+    "id": 1
+  },
+  {
+    "srcImage": "/assets/linkedin-icon.svg",
+    "alt": "LinkedIn",
+    "link": "lucas-rodrigues-perfil",
+    "id": 2
+  },
+  {
+    "srcImage": "/assets/github-icon.svg",
+    "alt": "Github",
+    "link": "rodrigues14",
+    "id": 3
+  }
+]
