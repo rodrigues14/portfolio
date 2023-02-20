@@ -5,6 +5,7 @@ import { Container } from "../../components/DefaultPage";
 import { Subtitle } from "../../components/Subtitle";
 import CardContact from "./CardContact";
 import contacts from './contacts.json'
+import Footer from "../../components/Footer";
 
 export default function Home() {
   return (
@@ -51,6 +52,7 @@ export default function Home() {
           </ContainerContact>
         </section>
       </Container>
+      <Footer />
     </>
   )
 }
