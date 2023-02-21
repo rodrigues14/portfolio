@@ -23,6 +23,7 @@ export const Button = styled.button`
   font-size: 18px;
   color: ${white};
   border-radius: 10px;
+  margin-top: 20px;
 `;
 
 export const Photo = styled.img`
