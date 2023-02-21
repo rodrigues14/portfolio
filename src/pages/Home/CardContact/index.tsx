@@ -3,14 +3,17 @@ import { DivStiled } from "./style";
 interface Props {
   src: string;
   alt: string;
+  user: string;
   link: string;
 }
 
-export default function CardContact({ src, alt, link }: Props) {
+export default function CardContact({ src, alt, user, link }: Props) {
   return (
-    <DivStiled>
-      <img src={src} alt={alt} />
-      <p>{link}</p>
-    </DivStiled>
+    <a href={link} target="_blank">
+      <DivStiled>
+        <img src={src} alt={alt} />
+        <p>{user}</p>
+      </DivStiled>
+    </a>
   )
 }

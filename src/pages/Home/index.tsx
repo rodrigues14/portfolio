@@ -16,7 +16,7 @@ export default function Home() {
               <span>Lucas Rodrigues</span> <br />
               Desenvolvedor Front-end
             </Title>
-            <Button>
+            <Button href="#">
               Currículo
             </Button>
           </div>
@@ -40,8 +40,9 @@ export default function Home() {
               contacts.map(contact => (
                 <CardContact
                   alt={contact.alt}
-                  link={contact.link}
+                  user={contact.user}
                   src={contact.srcImage}
+                  link={contact.link}
                   key={contact.id}
                 />
               ))

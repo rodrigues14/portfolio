@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { black, blue, white } from "../../components/UI/variaveis"
+import { black, blue, blueHover, blueLight, white } from "../../components/UI/variaveis"
 
 export const SectionStyled = styled.section`
   display: flex;
@@ -16,14 +16,21 @@ export const Title = styled.h1`
   }
 `;
 
-export const Button = styled.button`
+export const Button = styled.a`
   border: none;
   background-color: ${blue};
+  text-align: center;
   padding: 12px 25px;
+  width: 130px;
   font-size: 18px;
   color: ${white};
   border-radius: 10px;
   margin-top: 20px;
+  display: block;
+  &:hover {
+    background-color: ${blueHover};
+    transition: all .3s ease-in-out;
+  }
 `;
 
 export const Photo = styled.img`

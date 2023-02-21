@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import { bgLight, fontText } from './UI/variaveis';
+import { bgLight, black, fontText } from './UI/variaveis';
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -7,6 +7,8 @@ export const GlobalStyle = createGlobalStyle`
     margin:0;
     box-sizing: border-box;
     font-family: ${fontText};
+    text-decoration: none;
+    color: ${black};
   }
 
   body {

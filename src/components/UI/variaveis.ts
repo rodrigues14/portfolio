@@ -1,5 +1,6 @@
 export const bgLight = "#EDEDED";
 export const blue = "#2697FF";
+export const blueHover = "#0085ff";
 export const blueLight = "#A6D2FB";
 export const white = "#FFF";
 export const black = "#000";
