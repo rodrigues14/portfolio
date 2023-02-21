@@ -5,6 +5,7 @@ export const SectionStyled = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  min-height: calc(100vh - 160px);
 `;
 
 export const Title = styled.h1`
