@@ -1,9 +1,8 @@
 import photo from "/assets/my-photo.png";
 import { Button, ContainerContact, Photo, SectionStyled, Text, Title } from "./style";
-import { Container } from "../../components/DefaultPage";
-import { Subtitle } from "../../components/Subtitle";
 import CardContact from "./CardContact";
 import contacts from './contacts.json'
+import { Container, Subtitle } from "../../components/UI";
 
 export default function Home() {
   return (

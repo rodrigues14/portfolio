@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { Container } from "../../components/DefaultPage";
-import { Subtitle } from "../../components/Subtitle";
+import { Container, Subtitle } from "../../components/UI";
 import { TecsDescription, TecsImg } from "./style";
 import tecs from './tecs.json'
 
