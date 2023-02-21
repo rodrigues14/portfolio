@@ -1,0 +1,52 @@
+[
+  {
+    "name": "React",
+    "image": "/assets/tecs/icon-react.svg",
+    "description": "O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web."
+  },
+  {
+    "name": "JavaScript",
+    "image": "/assets/tecs/icon-javascript.svg",
+    "description": "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma."
+  },
+  {
+    "name": "TypeScript",
+    "image": "/assets/tecs/icon-typescript.svg",
+    "description": "TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem."
+  },
+  {
+    "name": "styled-components",
+    "image": "/assets/tecs/icon-styled-comp.png",
+    "description": "O Styled Components é uma biblioteca (lib) do React e do React Native que nos permite criar componentes de estilo ao escrever códigos CSS dentro de um arquivo JavaScript."
+  },
+  {
+    "name": "HTML5",
+    "image": "/assets/tecs/icon-html.svg",
+    "description": "HTML5 é uma linguagem de marcação para a World Wide Web e é uma tecnologia chave da Internet, originalmente proposto por Opera Software. É a quinta versão da linguagem HTML."
+  },
+  {
+    "name": "CSS3",
+    "image": "/assets/tecs/icon-css.svg",
+    "description": "CSS3 é a terceira mais nova versão das famosas Cascading Style Sheets, pela qual se define estilos para um projeto web."
+  },
+  {
+    "name": "Bootstrap",
+    "image": "/assets/tecs/icon-bootstrap.svg",
+    "description": "Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web, usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo."
+  },
+  {
+    "name": "Figma",
+    "image": "/assets/tecs/icon-figma.svg",
+    "description": "Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web, com ferramentas offline adicionais para aplicações desktop para GNU/Linux, macOS e Windows."
+  },
+  {
+    "name": "Git",
+    "image": "/assets/tecs/icon-git.svg",
+    "description": "Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo."
+  },
+  {
+    "name": "Github",
+    "image": "/assets/tecs/icon-github.svg",
+    "description": "GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo." 
+  }
+]

@@ -1,5 +1,6 @@
 import logo from '/assets/logo.svg'
 import { HeaderStyled, UlStyled } from './styles'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
@@ -7,8 +8,12 @@ export default function Header() {
       <img src={logo} alt="Logo" />
       <nav>
         <UlStyled>
-          <li>Home</li>
-          <li>Habilidades</li>
+          <Link to="/">
+            <li>Home</li>
+          </Link>
+          <Link to="/habilidades">
+            <li>Habilidades</li>
+          </Link>
           <li>Projetos</li>
         </UlStyled>
       </nav>
