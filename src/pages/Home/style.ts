@@ -41,6 +41,7 @@ export const Button = styled.a`
 
 export const Photo = styled.img`
   height: 350px;
+  width: 320.58px;
   border-radius: 50%;
   border: 1px solid ${blue};
   @media (max-width: 350px) {

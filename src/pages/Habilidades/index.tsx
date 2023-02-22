@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Container, Subtitle } from "../../components/UI";
 import { TecsDescription, TecsImg } from "./style";
 import tecs from './tecs.json'
+import { motion } from 'framer-motion';
 
 export default function Habilidades() {
   const [tecClick, setTecClick] = useState({
@@ -16,24 +17,30 @@ export default function Habilidades() {
     })
   }
   return (
-    <Container>
-      <Subtitle>Habilidades</Subtitle>
-      <div>
-        <TecsImg>
-          {tecs.map(tec => (
-            <img 
-              key={tec.name} 
-              src={tec.image} 
-              alt={tec.name} 
-              onClick={() => showPhrase(tec)}
-            />
-          ))}
-        </TecsImg>
-        <TecsDescription>
-          <h3>{tecClick.nameTec}</h3>
-          <p>{tecClick.descriptionTec}</p>
-        </TecsDescription>
-      </div>
-    </Container>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0, transition: { duration: .2 } }}
+    >
+      <Container>
+        <Subtitle>Habilidades</Subtitle>
+        <div>
+          <TecsImg>
+            {tecs.map(tec => (
+              <img
+                key={tec.name}
+                src={tec.image}
+                alt={tec.name}
+                onClick={() => showPhrase(tec)}
+              />
+            ))}
+          </TecsImg>
+          <TecsDescription>
+            <h3>{tecClick.nameTec}</h3>
+            <p>{tecClick.descriptionTec}</p>
+          </TecsDescription>
+        </div>
+      </Container>
+    </motion.div>
   )
 }

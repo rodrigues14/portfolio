@@ -3,10 +3,15 @@ import { Button, ContainerContact, Photo, SectionStyled, Text, Title } from "./s
 import CardContact from "./CardContact";
 import contacts from './contacts.json'
 import { Container, Subtitle } from "../../components/UI";
+import { motion } from 'framer-motion';
 
 export default function Home() {
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0, transition: { duration: .2 } }}
+    >
       <Container>
         <SectionStyled>
           <div>
@@ -49,6 +54,6 @@ export default function Home() {
           </ContainerContact>
         </section>
       </Container>
-    </>
+    </motion.div>
   )
 }
