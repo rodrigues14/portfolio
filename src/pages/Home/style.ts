@@ -1,11 +1,16 @@
 import styled from "styled-components"
-import { black, blue, blueHover, blueLight, white } from "../../components/UI/variaveis"
+import { black, blue, blueHover, white } from "../../components/UI/variaveis"
 
 export const SectionStyled = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-between;
   min-height: calc(100vh - 160px);
+  @media (max-width: 750px) {
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+  }
 `;
 
 export const Title = styled.h1`
@@ -38,6 +43,10 @@ export const Photo = styled.img`
   height: 350px;
   border-radius: 50%;
   border: 1px solid ${blue};
+  @media (max-width: 350px) {
+    width: 100%;
+    height: auto;
+  }
 `;
 
 export const Text = styled.p`
