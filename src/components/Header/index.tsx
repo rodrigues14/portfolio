@@ -14,7 +14,9 @@ export default function Header() {
           <Link to="/habilidades">
             <li>Habilidades</li>
           </Link>
-          <li>Projetos</li>
+          <Link to="/projetos">
+            <li>Projetos</li>
+          </Link>
         </UlStyled>
       </nav>
     </HeaderStyled>

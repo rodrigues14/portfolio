@@ -8,6 +8,12 @@ export const HeaderStyled = styled.header`
   height: 70px;
   padding: 0 150px;
   border-bottom: 2px solid ${blue};
+  @media (max-width: 950px) {
+    padding: 0 50px;
+  }
+  @media (max-width: 650px) {
+    padding: 0 10px;
+  }
 `;
 
 export const UlStyled = styled.ul`

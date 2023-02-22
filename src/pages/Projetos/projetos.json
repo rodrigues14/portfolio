@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "name": "Copa do Mundo 2022",
+    "linkGithub": "https://github.com/rodrigues14/copa-do-mundo",
+    "deploy": "https://jogadores-copa-do-mundo.vercel.app/",
+    "image": "/assets/projects/proj-copa.png",
+    "description": "Projeto desenvolvido em React, onde o usuário pode cadastrar um jogador na sua seleção, através de um formulário, que ao ser submetido, altera o estado da aplicação, renderizando o jogador na tela."
+  }
+]
