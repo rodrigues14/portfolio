@@ -8,12 +8,17 @@ export default function Projetos() {
     <Container>
       <Subtitle>Projetos</Subtitle>
       <StyledProjetos>
-        <CardProjeto 
-          srcImage="/assets/projects/proj-copa.PNG"
-          name="Copa do Mundo 2022"
-          linkGithub="https://github.com/rodrigues14/copa-do-mundo"
-          LinkWebsite="https://jogadores-copa-do-mundo.vercel.app/"
-        />
+        {
+          projetos.map(projeto => (
+            <CardProjeto 
+              key={projeto.id}
+              name={projeto.name}
+              srcImage={projeto.image}
+              linkGithub={projeto.linkGithub}
+              LinkWebsite={projeto.linkGithub}
+            />
+          ))
+        }
       </StyledProjetos>
     </Container>
   )

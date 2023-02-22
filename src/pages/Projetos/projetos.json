@@ -4,7 +4,15 @@
     "name": "Copa do Mundo 2022",
     "linkGithub": "https://github.com/rodrigues14/copa-do-mundo",
     "deploy": "https://jogadores-copa-do-mundo.vercel.app/",
-    "image": "/assets/projects/proj-copa.png",
+    "image": "/assets/projects/proj-copa.PNG",
     "description": "Projeto desenvolvido em React, onde o usuário pode cadastrar um jogador na sua seleção, através de um formulário, que ao ser submetido, altera o estado da aplicação, renderizando o jogador na tela."
+  },
+  {
+    "id": 2,
+    "name": "Burger Castle",
+    "linkGithub": "https://github.com/rodrigues14/burger-castle",
+    "deploy": "https://burger-castle-lrs.vercel.app/",
+    "image": "/assets/projects/proj-burger.PNG",
+    "description": ""
   }
 ]

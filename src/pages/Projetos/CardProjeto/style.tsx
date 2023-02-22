@@ -5,10 +5,7 @@ export const StyledProjeto = styled.div`
   max-width: 340px;
   border: 1px solid ${blue};
   border-radius: 10px;
-  margin: 8px;
-  @media (max-width: 499px) {
-    margin: 8px auto;
-  }
+  margin: 0 auto;
   > img {
     width: 100%;
     border-radius: 10px 10px 0 0;
