@@ -15,6 +15,9 @@ export const TecsImg = styled.div`
       transform: scale(1.1);
       transition: .3s;
     }
+    @media (max-width: 530px) {
+      width: 60px;
+    }
   }
 `; 
 
