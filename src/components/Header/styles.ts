@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { blue } from "../UI/variaveis";
+import { blue, blueLight } from "../UI/variaveis";
 
 export const HeaderStyled = styled.header`
   display: flex;
@@ -23,5 +23,9 @@ export const UlStyled = styled.ul`
   li {
     padding: .5rem 1rem;
     font-size: 18px;
+    &:hover {
+      background-color: ${blueLight};
+      transition: all .3s ease-in-out;
+    }
   }
 `;
