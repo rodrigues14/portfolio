@@ -20,12 +20,4 @@ export const UlStyled = styled.ul`
   display: flex;
   list-style: none;
   gap: 1rem;
-  li {
-    padding: .5rem 1rem;
-    font-size: 18px;
-    &:hover {
-      background-color: ${blueLight};
-      transition: all .3s ease-in-out;
-    }
-  }
 `;
