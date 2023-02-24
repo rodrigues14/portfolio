@@ -12,7 +12,7 @@ export const HeaderStyled = styled.header`
     padding: 0 50px;
   }
   @media (max-width: 650px) {
-    padding: 0 10px;
+    padding: 0 25px;
   }
 `;
 
