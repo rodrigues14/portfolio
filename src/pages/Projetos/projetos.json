@@ -14,5 +14,21 @@
     "deploy": "https://burger-castle-lrs.vercel.app/",
     "image": "/assets/projects/proj-burger.PNG",
     "description": ""
+  },
+  {
+    "id": 3,
+    "name": "App Studies",
+    "linkGithub": "https://github.com/rodrigues14/app-studies",
+    "deploy": "https://app-studies.vercel.app/",
+    "image": "/assets/projects/proj-appstudies.PNG",
+    "description": ""
+  },
+  {
+    "id": 4,
+    "name": "Cine tag",
+    "linkGithub": "https://github.com/rodrigues14/cinetag",
+    "deploy": "https://cinetag-show.vercel.app/",
+    "image": "/assets/projects/proj-cinetag.PNG",
+    "description": ""
   }
 ]
