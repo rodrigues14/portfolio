@@ -8,6 +8,11 @@ export default function Projetos() {
   return (
       <Container>
         <Subtitle>Projetos</Subtitle>
+        <motion.div
+          initial={{ opacity: 0, scale: 0.1 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+        >
         <StyledProjetos>
           {
             projetos.map(projeto => (
@@ -21,6 +26,7 @@ export default function Projetos() {
             ))
           }
         </StyledProjetos>
+        </motion.div>
       </Container>
   )
 }
