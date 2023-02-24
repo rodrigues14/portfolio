@@ -21,7 +21,7 @@ export default function Projetos() {
                 name={projeto.name}
                 srcImage={projeto.image}
                 linkGithub={projeto.linkGithub}
-                LinkWebsite={projeto.linkGithub}
+                LinkWebsite={projeto.deploy}
               />
             ))
           }
