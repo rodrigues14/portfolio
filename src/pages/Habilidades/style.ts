@@ -35,5 +35,6 @@ export const TecsDescription = styled.div`
     font-size: 18px;
     max-width: 700px;
     margin-inline: auto;
+    color: ${({ theme }) => theme.text};
   }
 `

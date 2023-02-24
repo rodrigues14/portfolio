@@ -5,8 +5,12 @@ const FooterStyled = styled.footer`
   background-color: ${blueLight};
   padding: 20px 10px;
   text-align: center;
-  a {
-    color: ${blueHover};
+  background-color:  ${({ theme }) => theme.footer};
+  > p {
+    color:  ${({ theme }) => theme.text};
+    a {
+      color: ${blueHover};
+    }
   }
 `;
 

@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { black, blue, blueHover, white } from "../../components/UI/variaveis"
+import { colorBlack, blue, blueHover, white } from "../../components/UI/variaveis"
 
 export const SectionStyled = styled.section`
   display: flex;
@@ -16,6 +16,7 @@ export const SectionStyled = styled.section`
 export const Title = styled.h1`
   font-size: 26px;
   font-weight: 500;
+  color:  ${({ theme }) => theme.text};
   span {
     font-size: 38px;
     color: ${blue};
@@ -53,8 +54,9 @@ export const Photo = styled.img`
 export const Text = styled.p`
   font-size: 20px;
   margin-bottom: 20px;
-  color: ${black};
+  color: ${colorBlack};
   text-align: justify;
+  color: ${({ theme }) => theme.text};
 `;
 
 export const ContainerContact = styled.div`

@@ -8,6 +8,7 @@ export const HeaderStyled = styled.header`
   height: 70px;
   padding: 0 150px;
   border-bottom: 2px solid ${blue};
+  background-color:  ${({ theme }) => theme.header};
   @media (max-width: 950px) {
     padding: 0 50px;
   }

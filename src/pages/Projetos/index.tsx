@@ -6,11 +6,6 @@ import { motion } from 'framer-motion';
 
 export default function Projetos() {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0, transition: { duration: .2 } }}
-    >
       <Container>
         <Subtitle>Projetos</Subtitle>
         <StyledProjetos>
@@ -27,6 +22,5 @@ export default function Projetos() {
           }
         </StyledProjetos>
       </Container>
-    </motion.div>
   )
 }

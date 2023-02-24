@@ -17,11 +17,6 @@ export default function Habilidades() {
     })
   }
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0, transition: { duration: .2 } }}
-    >
       <Container>
         <Subtitle>Habilidades</Subtitle>
         <div>
@@ -41,6 +36,5 @@ export default function Habilidades() {
           </TecsDescription>
         </div>
       </Container>
-    </motion.div>
   )
 }
