@@ -24,7 +24,7 @@ export default function Home() {
                 href="./pdf/curriculo-lucas-rodrigues.pdf"
                 download="curriculo-lucas-rodrigues"  
               >
-                Currículo <BsDownload />
+                Currículo <BsDownload size={21} />
               </Button>
           </motion.div>
             <Photo 
@@ -57,6 +57,7 @@ export default function Home() {
                   user={contact.user}
                   src={contact.srcImage}
                   link={contact.link}
+                  target={contact.target}
                   key={contact.id}
                 />
               ))

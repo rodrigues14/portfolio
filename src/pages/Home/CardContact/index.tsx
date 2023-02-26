@@ -5,11 +5,12 @@ interface Props {
   alt: string;
   user: string;
   link: string;
+  target: string;
 }
 
-export default function CardContact({ src, alt, user, link }: Props) {
+export default function CardContact({ src, alt, user, link, target }: Props) {
   return (
-    <a href={link} target="_blank">
+    <a href={link} target={target}>
       <DivStiled>
         <img src={src} alt={alt} />
         <p>{user}</p>

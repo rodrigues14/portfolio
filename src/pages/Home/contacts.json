@@ -4,6 +4,7 @@
     "alt": "Logo do Gmail",
     "user": "lucascontatodev@gmail.com",
     "link": "mailto:lucascontatodev@gmail.com",
+    "target": "_self",
     "id": 1
   },
   {
@@ -11,6 +12,7 @@
     "alt": "Logo do LinkedIn",
     "user": "lucas-rodrigues-perfil",
     "link": "https://www.linkedin.com/in/lucas-rodrigues-perfil/",
+    "target": "_blank",
     "id": 2
   },
   {
@@ -18,6 +20,7 @@
     "alt": "Logo do Github",
     "user": "rodrigues14",
     "link": "https://github.com/rodrigues14",
+    "target": "_blank",
     "id": 3
   }
 ]
