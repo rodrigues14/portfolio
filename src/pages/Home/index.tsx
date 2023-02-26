@@ -28,7 +28,7 @@ export default function Home() {
               </Button>
           </motion.div>
             <Photo 
-              src={photo} alt="Minha foto" 
+              src={photo} alt="Foto de Lucas Rodrigues" 
               initial={{ opacity: 0, scale: 0.1 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}

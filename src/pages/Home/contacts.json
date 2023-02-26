@@ -1,21 +1,21 @@
 [
   {
-    "srcImage": "/assets/gmail-icon.svg",
-    "alt": "Email",
+    "srcImage": "/assets/socialMedia/gmail-logo.svg",
+    "alt": "Logo do Gmail",
     "user": "lucascontatodev@gmail.com",
     "link": "mailto:lucascontatodev@gmail.com",
     "id": 1
   },
   {
-    "srcImage": "/assets/linkedin-icon.svg",
-    "alt": "LinkedIn",
+    "srcImage": "/assets/socialMedia/linkedin-logo.svg",
+    "alt": "Logo do LinkedIn",
     "user": "lucas-rodrigues-perfil",
     "link": "https://www.linkedin.com/in/lucas-rodrigues-perfil/",
     "id": 2
   },
   {
-    "srcImage": "/assets/github-icon.svg",
-    "alt": "Github",
+    "srcImage": "/assets/socialMedia/github-logo.svg",
+    "alt": "Logo do Github",
     "user": "rodrigues14",
     "link": "https://github.com/rodrigues14",
     "id": 3
