@@ -1,24 +1,34 @@
 import logo from '/assets/logo.svg'
-import { HeaderStyled, UlStyled } from './styles'
+import { HeaderStyled, UlStyled, MenuBurger } from './styles'
 import LinkHeader from './LinkHeader';
+import { IoMenu, IoClose } from 'react-icons/io5'
+import { useState } from 'react'
 
 export default function Header() {
+  const [menuBurger, setMenuBurger] = useState(false);
+
+  function toggleMenu() {
+    setMenuBurger(!menuBurger)
+  }
 
   return (
     <HeaderStyled>
       <img src={logo} alt="Logo" />
       <nav>
-        <UlStyled>
-          <LinkHeader to='/'>
+        <UlStyled menuBurger={menuBurger}>
+          <LinkHeader to='/' toggleMenu={toggleMenu}>
             Home
           </LinkHeader>
-          <LinkHeader to='/habilidades'>
+          <LinkHeader to='/habilidades' toggleMenu={toggleMenu}>
             Habilidades
           </LinkHeader>
-          <LinkHeader to='/projetos'>
-          Projetos
+          <LinkHeader to='/projetos' toggleMenu={toggleMenu}>
+            Projetos
           </LinkHeader>
         </UlStyled>
+        <MenuBurger onClick={toggleMenu}>
+          {menuBurger ? <IoClose size={30} /> : <IoMenu size={30} />}
+        </MenuBurger>
       </nav>
     </HeaderStyled>
   )
