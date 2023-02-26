@@ -64,6 +64,9 @@ export const Text = styled.p`
   color: ${colorBlack};
   text-align: justify;
   color: ${({ theme }) => theme.text};
+  strong {
+    color: ${({ theme }) => theme.text};
+  }
 `;
 
 export const ContainerContact = styled(motion.div)`

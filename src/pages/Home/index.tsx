@@ -37,10 +37,10 @@ export default function Home() {
         <section>
           <Subtitle>Sobre mim</Subtitle>
           <Text>
-            Meu nome é Lucas, tenho 19 anos e atualmente estou cursando Análise e Desenvolvimento de Sistemas na FIAP. Estou em busca de um estágio com foco em desenvolvimento web front-end, uma vez que é a área que eu tenho maior interesse em adquirir conhecimento e atuar profissionalmente. No momento, me dedico aos estudos de React e estou realizando alguns projetos, para praticar meus novos conhecimentos.
+            Meu nome é Lucas, tenho 19 anos e atualmente estou cursando <strong>Análise e Desenvolvimento de Sistemas</strong> na FIAP. Estou em busca de um estágio com foco em <strong>desenvolvimento Front-end</strong> ou uma oportunidade como Júnior, uma vez que é a área que eu tenho maior interesse em adquirir conhecimento e atuar profissionalmente. No momento, me dedico aos estudos de <strong>React</strong> com <strong>TypeScript</strong> e estou realizando alguns projetos, para praticar meus novos conhecimentos.
           </Text>
           <Text>
-            Comecei a estudar programação no início de 2022. No começo, eu achei complicado e que isso não era para mim, mas depois que eu comecei a entender um pouco mais sobre, e tudo o que pode ser feito com a tecnologia, eu passei a gostar e me dedicar cada vez mais e sigo em busca dos meus objetivos.
+            Comecei a estudar programação no início de 2022. No começo, eu achei complicado e que isso não era para mim, mas depois que eu comecei a entender um pouco mais sobre, e tudo o que pode ser feito com a <strong>tecnologia</strong>, eu passei a gostar e me dedicar cada vez mais e sigo em busca dos meus objetivos.
           </Text>
         </section>
         <section>
