@@ -1,4 +1,4 @@
-import logo from '/assets/logo.svg'
+import logo from '/logo.png'
 import { HeaderStyled, UlStyled, MenuBurger } from './styles'
 import LinkHeader from './LinkHeader';
 import { IoMenu, IoClose } from 'react-icons/io5'
