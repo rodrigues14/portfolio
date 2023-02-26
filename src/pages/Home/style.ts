@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import styled from "styled-components"
 import { colorBlack, blue, blueHover, white } from "../../components/UI/variaveis"
 
@@ -46,7 +47,7 @@ export const Button = styled.a`
   } 
 `;
 
-export const Photo = styled.img`
+export const Photo = styled(motion.img)`
   height: 350px;
   width: 320.58px;
   border-radius: 50%;
@@ -65,7 +66,7 @@ export const Text = styled.p`
   color: ${({ theme }) => theme.text};
 `;
 
-export const ContainerContact = styled.div`
+export const ContainerContact = styled(motion.div)`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, auto));
   align-items: center;

@@ -20,22 +20,19 @@ export default function Home() {
               <span>Lucas Rodrigues</span> <br />
               Desenvolvedor Front-end
             </Title>
-            <div>
               <Button 
                 href="./pdf/curriculo-lucas-rodrigues.pdf"
                 download="curriculo-lucas-rodrigues"  
               >
                 Currículo <BsDownload />
               </Button>
-            </div>
           </motion.div>
-          <motion.div
-            initial={{ opacity: 0, scale: 0.1 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5 }}
-          >
-            <Photo src={photo} alt="Minha foto" />
-          </motion.div>
+            <Photo 
+              src={photo} alt="Minha foto" 
+              initial={{ opacity: 0, scale: 0.1 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5 }}
+            />
         </SectionStyled>
         <section>
           <Subtitle>Sobre mim</Subtitle>
@@ -48,12 +45,11 @@ export default function Home() {
         </section>
         <section>
           <Subtitle>Contato</Subtitle>
-          <motion.div
+          <ContainerContact
             initial={{ opacity: 0, y: -100 }}
             transition={{ duration: .5 }}
             whileInView={{ opacity: 1, y: 0 }}
           >
-          <ContainerContact>
             {
               contacts.map(contact => (
                 <CardContact
@@ -66,7 +62,6 @@ export default function Home() {
               ))
             }
           </ContainerContact>
-          </motion.div>
         </section>
       </Container>
   )
