@@ -28,7 +28,7 @@ export const Button = styled.a`
   background-color: ${blue};
   text-align: center;
   padding: 12px 25px;
-  width: 130px;
+  width: 155px;
   font-size: 18px;
   color: ${white};
   border-radius: 10px;
@@ -38,6 +38,12 @@ export const Button = styled.a`
     background-color: ${blueHover};
     transition: all .3s ease-in-out;
   }
+  svg {
+    margin-left: 7px;
+    path {
+    color: ${white};
+  }
+  } 
 `;
 
 export const Photo = styled.img`

@@ -4,6 +4,7 @@ import CardContact from "./CardContact";
 import contacts from './contacts.json'
 import { Container, Subtitle } from "../../components/UI";
 import { motion } from 'framer-motion';
+import { BsDownload } from 'react-icons/bs'
 
 export default function Home() {
   return (
@@ -20,8 +21,11 @@ export default function Home() {
               Desenvolvedor Front-end
             </Title>
             <div>
-              <Button href="#">
-                Currículo
+              <Button 
+                href="./pdf/curriculo-lucas-rodrigues.pdf"
+                download="curriculo-lucas-rodrigues"  
+              >
+                Currículo <BsDownload />
               </Button>
             </div>
           </motion.div>
