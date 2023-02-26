@@ -13,6 +13,7 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     background-color: ${bgLight};
+    overflow-x: hidden;
   }
 
   ::-webkit-scrollbar {
