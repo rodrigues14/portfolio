@@ -12,10 +12,13 @@ import Habilidades from "./pages/Habilidades"
 import Projetos from "./pages/Projetos"
 
 function AppRoutes() {
-  const [theme, setTheme] = useState(true);
+  const themeCurrent = localStorage.getItem("Theme dark")
+  const checkTheme = (themeCurrent === "true" ? false : true )
+  const [theme, setTheme] = useState(checkTheme);
 
   const toggleTheme = () => {
     setTheme((theme) => !theme);
+    localStorage.setItem("Theme dark", String(theme));
   }
 
   return (
