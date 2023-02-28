@@ -37,16 +37,16 @@ export const UlStyled = styled.ul`
     top: 70px;
     right: 0px;
     background-color: ${blue};
-    animation: fromRight .5s .3s backwards;
+    animation: fromTop .5s .3s backwards;
   }
-  @keyframes fromRight {
+  @keyframes fromTop {
     from {
         opacity: 0;
-        transform: translateX(150px);
+        transform: translateY(-70px);
     }
     to {
         opacity: 1;
-        transform: translateX(0);
+        transform: translateY(0);
     }
   }
 `;
