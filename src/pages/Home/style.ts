@@ -62,7 +62,6 @@ export const Text = styled.p`
   font-size: 20px;
   margin-bottom: 20px;
   color: ${colorBlack};
-  text-align: justify;
   color: ${({ theme }) => theme.text};
   strong {
     color: ${({ theme }) => theme.text};
