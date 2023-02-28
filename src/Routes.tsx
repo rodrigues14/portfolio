@@ -29,7 +29,7 @@ function AppRoutes() {
           <SwitcherTheme theme={theme} />
         </BtnTheme>
         <Header />
-        <Routes location={location} key={location.pathname}>
+        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/habilidades" element={<Habilidades />} />
           <Route path="/projetos" element={<Projetos />} />
