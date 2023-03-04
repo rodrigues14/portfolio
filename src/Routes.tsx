@@ -10,6 +10,7 @@ import { useState } from 'react';
 import Home from "./pages/Home"
 import Habilidades from "./pages/Habilidades"
 import Projetos from "./pages/Projetos"
+import NotFound from "./pages/NotFound"
 
 function AppRoutes() {
   const themeCurrent = localStorage.getItem("Theme dark")
@@ -33,6 +34,7 @@ function AppRoutes() {
           <Route path="/" element={<Home />} />
           <Route path="/habilidades" element={<Habilidades />} />
           <Route path="/projetos" element={<Projetos />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </ThemeProvider>
