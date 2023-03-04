@@ -4,31 +4,27 @@
     "name": "Copa do Mundo 2022",
     "linkGithub": "https://github.com/rodrigues14/copa-do-mundo",
     "deploy": "https://jogadores-copa-do-mundo.vercel.app/",
-    "image": "/assets/projects/proj-copa.PNG",
-    "description": "Projeto desenvolvido em React, onde o usuário pode cadastrar um jogador na sua seleção, através de um formulário, que ao ser submetido, altera o estado da aplicação, renderizando o jogador na tela."
+    "image": "/assets/projects/proj-copa.PNG"
   },
   {
     "id": 2,
     "name": "Burger Castle",
     "linkGithub": "https://github.com/rodrigues14/burger-castle",
     "deploy": "https://burger-castle-lrs.vercel.app/",
-    "image": "/assets/projects/proj-burger.PNG",
-    "description": ""
+    "image": "/assets/projects/proj-burger.PNG"
   },
   {
     "id": 3,
     "name": "App Studies",
     "linkGithub": "https://github.com/rodrigues14/app-studies",
     "deploy": "https://app-studies.vercel.app/",
-    "image": "/assets/projects/proj-appstudies.PNG",
-    "description": ""
+    "image": "/assets/projects/proj-appstudies.PNG"
   },
   {
     "id": 4,
     "name": "Cine tag",
     "linkGithub": "https://github.com/rodrigues14/cinetag",
     "deploy": "https://cinetag-show.vercel.app/",
-    "image": "/assets/projects/proj-cinetag.PNG",
-    "description": ""
+    "image": "/assets/projects/proj-cinetag.PNG"
   }
 ]
