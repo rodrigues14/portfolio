@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   padding: 70px 150px;
-  min-height: calc(100vh - 70px - 88px);
+  min-height: calc(100vh - 70px - 59px);
   background-color: ${({ theme }) => theme.container};
   @media (max-width: 950px) {
     padding: 70px 50px;
