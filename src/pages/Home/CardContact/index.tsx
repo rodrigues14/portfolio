@@ -10,7 +10,7 @@ interface Props {
 
 export default function CardContact({ src, alt, user, link, target }: Props) {
   return (
-    <a href={link} target={target}>
+    <a href={link} target={target} rel="noopener noreferrer">
       <DivStiled>
         <img src={src} alt={alt} />
         <p>{user}</p>

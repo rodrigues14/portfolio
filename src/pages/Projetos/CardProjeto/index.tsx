@@ -15,8 +15,8 @@ export default function CardProjeto({ name, srcImage, linkGithub, LinkWebsite }:
         <h3>{name}</h3>
       </NameProject>
       <LinksProject>
-        <a target="_blank" href={linkGithub}>Repositório</a>
-        <a target="_blank" href={LinkWebsite}>Website</a>
+        <a target="_blank" rel="noopener noreferrer" href={linkGithub}>Repositório</a>
+        <a target="_blank" rel="noopener noreferrer" href={LinkWebsite}>Website</a>
       </LinksProject>
     </StyledProjeto>
   )

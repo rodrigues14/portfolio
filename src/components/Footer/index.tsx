@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <FooterStyled>
       <div>
-        <p>Desenvolvido por <a target="_blank" href="https://www.linkedin.com/in/lucas-rodrigues-perfil/">Lucas Rodrigues</a></p>
+        <p>Desenvolvido por <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/lucas-rodrigues-perfil/">Lucas Rodrigues</a></p>
       </div>
       <div>
         <p> 
