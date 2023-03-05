@@ -1,6 +1,8 @@
 # portfolio
 
-## Sobre
+## 📋 Sobre
+Acesse o projeto através deste link: [Portfólio](https://lucasrodrigues.vercel.app/)  
+  
 Este é meu portfólio, aqui eu falo um pouco sobre mim, como eu iniciei no mundo da tecnologia, sobre os meus projetos e as tecnologias que domino.
 
 ## 🛠 Tecnologias
@@ -11,7 +13,7 @@ Este projeto foi desenvolvido usando as seguintes tecnologias:
 - Figma
 - Git
 
-## Funcionalidades 
+## 💻 Funcionalidades 
 
 O meu portfólio apresenta as seguintes funcionalidades:  
 
@@ -21,7 +23,7 @@ O meu portfólio apresenta as seguintes funcionalidades:
 - Além disso criei uma rota para quando a página não for encontrada, o usuário ser informado que ocorreu um erro.
 - E criei a funcionalidade de trocar o tema, e salvo está informação no Local Storage para manter a preferência do usuário.
 
-## Abrir e rodar o projeto
+## ⚙ Abrir e rodar o projeto
 
 > Certifique-se de ter o Node.js instalado em seu computador.  
 > Clone este repositório em sua máquina.  
@@ -29,7 +31,7 @@ O meu portfólio apresenta as seguintes funcionalidades:
 > Em seguida, execute o comando `npm start` para iniciar o servidor de desenvolvimento.  
 > Abra o navegador e acesse http://localhost:3000.  
 
-## Autor
+## 👨‍💻 Autor
 
 Este projeto foi desenvolvido por Lucas Rodrigues. Você pode entrar em contato comigo através do meu [LinkedIn](https://www.linkedin.com/in/lucas-rodrigues-perfil/).
  
