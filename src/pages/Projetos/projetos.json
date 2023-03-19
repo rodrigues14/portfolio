@@ -15,13 +15,20 @@
   },
   {
     "id": 3,
+    "name": "FutPlay Shop",
+    "linkGithub": "https://github.com/rodrigues14/e-commerce",
+    "deploy": "https://futplay-shop.vercel.ap",
+    "image": "/assets/projects/proj-futplay-shop.PNG"
+  },
+  {
+    "id": 4,
     "name": "App Studies",
     "linkGithub": "https://github.com/rodrigues14/app-studies",
     "deploy": "https://app-studies.vercel.app/",
     "image": "/assets/projects/proj-appstudies.PNG"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Cine tag",
     "linkGithub": "https://github.com/rodrigues14/cinetag",
     "deploy": "https://cinetag-show.vercel.app/",
