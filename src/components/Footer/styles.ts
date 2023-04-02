@@ -10,6 +10,7 @@ export const FooterStyled = styled.footer`
   @media (max-width: 780px) {
     flex-direction: column;
     align-items: center;
+    padding: 20px 20px;
   }
   > div p {
     color:  ${({ theme }) => theme.text};
