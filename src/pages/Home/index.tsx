@@ -32,8 +32,8 @@ export default function Home() {
             Desenvolvedor Front-end
           </Title>
           <Button
-            href="./pdf/curriculo-lucas-rodrigues.pdf"
-            download="curriculo-lucas-rodrigues"
+            href="./pdf/lucas-rodrigues.pdf"
+            download
           >
             Currículo <BsDownload size={21} />
           </Button>
