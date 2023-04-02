@@ -6,6 +6,7 @@ import { Container, Subtitle } from "../../components/UI";
 import { motion } from 'framer-motion';
 import { BsDownload } from 'react-icons/bs'
 import styled from "styled-components";
+import curriculo from "./pdf/lucas-rodrigues.pdf";
 
 const SobreMim = styled.div`
   display: flex;
@@ -32,7 +33,7 @@ export default function Home() {
             Desenvolvedor Front-end
           </Title>
           <Button
-            href="./pdf/lucas-rodrigues.pdf"
+            href={curriculo}
             download
           >
             Currículo <BsDownload size={21} />
