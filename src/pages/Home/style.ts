@@ -72,14 +72,20 @@ export const SobreMim = styled.div`
   img {
     height: 450px;
   }
-  @media (max-width: 805px) {
-    flex-direction: column-reverse;
-  }
   @media (max-width: 1400px) {
     gap: 0;
     img {
-    height: 350px;
+      height: 350px;
+    }
   }
+  @media (max-width: 805px) {
+    flex-direction: column-reverse;
+  }
+  @media (max-width: 400px) {
+    img {
+      width: 100%;
+      height: auto;
+    }
   }
 `;
 

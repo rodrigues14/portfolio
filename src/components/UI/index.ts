@@ -4,14 +4,14 @@ export const Container = styled.section`
   padding: 70px 200px;
   min-height: calc(100vh - 70px - 59px);
   background-color: ${({ theme }) => theme.container};
-  @media (max-width: 650px) {
-    padding: 70px 25px;
+  @media screen and (max-width: 1400px) {
+    padding: 70px 150px;
   }
-  @media (max-width: 950px) {
+  @media screen and (max-width: 950px) {
     padding: 70px 50px;
   }
-  @media (max-width: 1400px) {
-    padding: 70px 150px;
+  @media screen and (max-width: 650px) {
+    padding: 70px 25px;
   }
 `
 
