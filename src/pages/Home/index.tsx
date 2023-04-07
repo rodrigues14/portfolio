@@ -1,22 +1,11 @@
 import photo from "/assets/my-photo.png";
-import { Button, ContainerContact, Photo, SectionStyled, Text, Title } from "./style";
+import { Button, ContainerContact, Photo, SectionStyled, Text, Title, SobreMim } from "./style";
 import CardContact from "./CardContact";
 import contacts from './contacts.json'
 import { Container, Subtitle } from "../../components/UI";
 import { motion } from 'framer-motion';
 import { BsDownload } from 'react-icons/bs'
-import styled from "styled-components";
 import curriculo from "./pdf/lucas-rodrigues.pdf";
-
-const SobreMim = styled.div`
-  display: flex;
-  img {
-    height: 350px;
-  }
-  @media (max-width: 805px) {
-    flex-direction: column-reverse;
-  }
-`;
 
 export default function Home() {
   return (
