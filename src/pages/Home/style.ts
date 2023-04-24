@@ -3,6 +3,8 @@ import styled from "styled-components"
 import { colorBlack, blue, blueHover, white } from "../../components/UI/variaveis"
 
 export const SectionStyled = styled.section`
+  max-width: 1400px;
+  margin-inline: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -66,6 +68,8 @@ export const Photo = styled(motion.img)`
 `;
 
 export const SobreMim = styled.div`
+  max-width: 1400px;
+  margin-inline: auto;
   display: flex;
   align-items: center;
   gap: 60px;
