@@ -9,6 +9,9 @@ export const SectionStyled = styled.section`
   align-items: center;
   justify-content: space-between;
   min-height: calc(100vh - 160px);
+  @media (min-height: 1300px) {
+    min-height: 800px;
+  }
   @media (max-width: 750px) {
     flex-direction: column;
     justify-content: center;
