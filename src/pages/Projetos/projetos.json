@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "name": "Copa do Mundo 2022",
-    "linkGithub": "https://github.com/rodrigues14/copa-do-mundo",
-    "deploy": "https://jogadores-copa-do-mundo.vercel.app/",
-    "image": "/assets/projects/proj-copa.PNG"
+    "name": "FutPlay Shop",
+    "linkGithub": "https://github.com/rodrigues14/e-commerce",
+    "deploy": "https://futplay-shop.vercel.app/",
+    "image": "/assets/projects/proj-futplay-shop.PNG"
   },
   {
     "id": 2,
@@ -15,17 +15,17 @@
   },
   {
     "id": 3,
-    "name": "FutPlay Shop",
-    "linkGithub": "https://github.com/rodrigues14/e-commerce",
-    "deploy": "https://futplay-shop.vercel.ap",
-    "image": "/assets/projects/proj-futplay-shop.PNG"
-  },
-  {
-    "id": 4,
     "name": "Buscador Github",
     "linkGithub": "https://github.com/rodrigues14/buscar-usuario-github",
     "deploy": "https://buscar-usuario-github.vercel.app/",
     "image": "/assets/projects/proj-github.PNG"
+  },
+  {
+    "id": 4,
+    "name": "Copa do Mundo 2022",
+    "linkGithub": "https://github.com/rodrigues14/copa-do-mundo",
+    "deploy": "https://jogadores-copa-do-mundo.vercel.app/",
+    "image": "/assets/projects/proj-copa.PNG"
   },
   {
     "id": 5,

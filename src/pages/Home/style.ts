@@ -16,6 +16,7 @@ export const SectionStyled = styled.section`
     flex-direction: column;
     justify-content: center;
     gap: 100px;
+    margin-bottom: 80px;
   }
 `;
 
