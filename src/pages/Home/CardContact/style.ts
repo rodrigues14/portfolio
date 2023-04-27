@@ -14,10 +14,7 @@ export const DivStiled = styled.div`
     color: ${({ theme }) => theme.text};
   }
   &:hover {
-    background-color: ${blueLight};
+    background-color: rgba(0, 0, 0, .6);
     transition: all .3s ease-in-out;
-    p {
-      color: black;
-    }
   }
 `
