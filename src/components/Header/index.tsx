@@ -13,23 +13,25 @@ export default function Header() {
 
   return (
     <HeaderStyled>
-      <img src={logo} alt="Logo" />
-      <nav>
-        <UlStyled menuBurger={menuBurger}>
-          <LinkHeader to='/' toggleMenu={toggleMenu}>
-            Home
-          </LinkHeader>
-          <LinkHeader to='/habilidades' toggleMenu={toggleMenu}>
-            Habilidades
-          </LinkHeader>
-          <LinkHeader to='/projetos' toggleMenu={toggleMenu}>
-            Projetos
-          </LinkHeader>
-        </UlStyled>
-        <MenuBurger onClick={toggleMenu}>
-          {menuBurger ? <IoClose size={30} /> : <IoMenu size={30} />}
-        </MenuBurger>
-      </nav>
+      <div>
+        <img src={logo} alt="Logo" />
+        <nav>
+          <UlStyled menuBurger={menuBurger}>
+            <LinkHeader to='/' toggleMenu={toggleMenu}>
+              Home
+            </LinkHeader>
+            <LinkHeader to='/habilidades' toggleMenu={toggleMenu}>
+              Habilidades
+            </LinkHeader>
+            <LinkHeader to='/projetos' toggleMenu={toggleMenu}>
+              Projetos
+            </LinkHeader>
+          </UlStyled>
+          <MenuBurger onClick={toggleMenu}>
+            {menuBurger ? <IoClose size={30} /> : <IoMenu size={30} />}
+          </MenuBurger>
+        </nav>
+      </div>
     </HeaderStyled>
   )
 }

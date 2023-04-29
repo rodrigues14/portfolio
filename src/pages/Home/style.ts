@@ -3,7 +3,7 @@ import styled from "styled-components"
 import { colorBlack, blue, blueHover, white } from "../../components/UI/variaveis"
 
 export const SectionStyled = styled.section`
-  max-width: 1400px;
+  max-width: 1100px;
   margin-inline: auto;
   display: flex;
   align-items: center;
@@ -21,15 +21,12 @@ export const SectionStyled = styled.section`
 `;
 
 export const Title = styled.h1`
-  font-size: 36px;
+  font-size: 26px;
   font-weight: 500;
   color:  ${({ theme }) => theme.text};
   span {
     font-size: 38px;
     color: ${blue};
-  }
-  @media (max-width: 1400px) {
-    font-size: 26px;
   }
 `;
 
@@ -57,14 +54,10 @@ export const Button = styled.a`
 `;
 
 export const Photo = styled(motion.img)`
-  height: 450px;
-  width: 420.58px;
+  height: 350px;
+    width: 320.58px;
   border-radius: 50%;
   border: 1px solid ${blue};
-  @media (max-width: 1400px) {
-    height: 350px;
-    width: 320.58px;
-  }
   @media (max-width: 350px) {
     width: 100%;
     height: auto;
@@ -72,19 +65,12 @@ export const Photo = styled(motion.img)`
 `;
 
 export const SobreMim = styled.div`
-  max-width: 1400px;
+  max-width: 1100px;
   margin-inline: auto;
   display: flex;
   align-items: center;
-  gap: 60px;
   img {
-    height: 450px;
-  }
-  @media (max-width: 1400px) {
-    gap: 0;
-    img {
-      height: 350px;
-    }
+    height: 350px;
   }
   @media (max-width: 805px) {
     flex-direction: column-reverse;
@@ -98,20 +84,17 @@ export const SobreMim = styled.div`
 `;
 
 export const Text = styled.p`
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 20px;
   color: ${colorBlack};
   color: ${({ theme }) => theme.text};
   strong {
     color: ${({ theme }) => theme.text};
   }
-  @media (max-width: 1400px) {
-    font-size: 20px;
-  }
 `;
 
 export const ContainerContact = styled(motion.div)`
-  max-width: 1400px;
+  max-width: 1100px;
   margin-inline: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, auto));

@@ -33,16 +33,15 @@ export const LinksProject = styled.div`
   > :nth-child(2) {
     border-radius: 0 0 10px 0;
   }
-  a {
+  a { 
       width: 50%;
       text-align: center;
       padding: 10px 5px;
       font-size: 18px;
       color: ${({ theme }) => theme.text};
       &:hover {
-        background-color: ${blueLight};
+        background-color: rgba(0, 0, 0, .6);
         transition: all .3s ease-in-out;
-        color: black;
       }
     }
 `;

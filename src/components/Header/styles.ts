@@ -2,13 +2,18 @@ import styled from "styled-components";
 import { blue, blueLight } from "../UI/variaveis";
 
 export const HeaderStyled = styled.header`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 70px;
-  padding: 0 150px;
-  border-bottom: 2px solid ${blue};
   background-color:  ${({ theme }) => theme.header};
+  border-bottom: 2px solid ${blue};
+  padding: 0 150px;
+  height: 70px;
+  > div{
+    height: 100%;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: auto;
+  }
   @media (max-width: 950px) {
     padding: 0 50px;
     nav {
